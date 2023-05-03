@@ -1,0 +1,94 @@
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: #ffffff;
+}
+
+.maintitle{
+font-size: 23px;
+ display: flex;
+justify-content: center;
+margin-bottom: -15px;
+}
+
+.wrapper {
+  height: 600px;
+  width: 360px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 40px auto;
+  box-shadow: 10px 8px 35px black;
+} 
+
+#topContainer {
+  margin-top: 4rem;
+}
+
+#temperatureTypefrom,#temperatureTypeto{
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.container {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.inputContainer {
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+#tempInput,
+#result {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+#convert{
+  background: #4f63ff;
+  border-radius: 1.4rem;
+  margin :45px auto ;
+  padding: 15px;
+  width: 130px;
+  font-size: 15px;
+}
+
+#convert:hover{
+ background-color: #8594ff ;
+ cursor: pointer;
+}
+
+#clear{
+  background: #4f63ff;
+  border-radius: 1.4rem;
+  margin-left: 95px;
+  padding: 15px;
+  width: 130px;
+  font-size: 15px;
+}
+#clear:hover{
+  background-color: #8594ff ;
+  cursor: pointer;
+ }
+

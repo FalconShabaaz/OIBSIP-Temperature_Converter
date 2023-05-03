@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="maintitle"> Temperature Converter</div>
+      <div class="container" id="topContainer">
+        <div class="title">Value</div>
+        <div class="inputContainer">
+          <input
+            type="text"
+            id="tempInput"
+            placeholder="0"
+            title="Enter Input Value"
+          />
+        </div>
+      </div>
+      <div class="container" id="dropdown">
+        <div class="title">From</div>
+        <select id="temperatureTypefrom" title="Select Temperature Scale">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+
+      <div class="container" id="dropdown">
+        <div class="title">To</div>
+        <select id="temperatureTypeto" title="Select Temperature Scale">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+
+      <div class="container" id="bottomContainer">
+        <div class="title">Result</div>
+        <div class="inputContainer">
+          <input
+            type="text"
+            id="result"
+            placeholder="0"
+          />
+        </div>
+         
+        <button id="convert" class="converbtn" >Convert</button>
+        <span><button id="clear" class="clearbtn" >Clear</button></span>
+      
+
+    <script type="text/javascript" src="script.js" ON></script>
+  </body>
+</html>
